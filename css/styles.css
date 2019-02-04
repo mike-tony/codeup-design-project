@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+body {
+    font-family: 'Abel', sans-serif;
+    background-color: #E6E6E6;
+}
+
+
+
+.logo {
+    width: 105px;
+    height: 105px;
+    border-radius: 100px;
+}
