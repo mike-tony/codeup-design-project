@@ -1,16 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Abel');
 @import url('https://fonts.googleapis.com/css?family=Anton');
 
+nav {
+    width: 100%;
+}
+
 body {
     font-family: 'Abel', sans-serif;
     background-color: #E6E6E6;
 }
 #navbar-row {
     background-color: white;
+    position: relative;
+    padding: 1.5em;
+    margin: 2em 0;
 }
-div {
 
-}
 ul {
     margin: 0;
     padding: 0;
@@ -22,11 +27,13 @@ li {
 
 #navbar-row li {
     display: inline;
+    padding: 1em 1em;
 
 }
 
 h4 {
     display: inline;
+    margin-left: 5em;
 }
 h5 {
     margin-bottom: 2em;
@@ -51,6 +58,8 @@ img {
     width: 105px;
     height: 105px;
     border-radius: 40px;
+    position: absolute;
+    bottom: -2.5em;
 
 }
 .icon-list {
