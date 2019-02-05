@@ -8,6 +8,7 @@ nav {
 body {
     font-family: 'Abel', sans-serif;
     background-color: #E6E6E6;
+    padding: 3em;
 }
 #navbar-row {
     background-color: white;
@@ -31,12 +32,42 @@ li {
 
 }
 
+.navbar2 {
+    margin-bottom: 5em;
+    text-align: center;
+}
+
+.navbar2 li {
+    display: inline;
+    list-style: none;
+    padding: 2em;
+}
+
+.navbar2 li img{
+    float: none;
+}
+
+.nav2 {
+    background-color: white;
+    margin-top: 2em;
+    padding: 1em;
+}
+
+.logo2 {
+    width: 105px;
+    height: 105px;
+    border-radius: 50px;
+    position: absolute;
+    left: 43%;
+    top: 9%;
+}
+
 h4 {
     display: inline;
     margin-left: 5em;
 }
 h5 {
-    margin-bottom: 2em;
+    margin-bottom: 5em;
 }
 
 li img {
@@ -62,6 +93,12 @@ img {
     bottom: -2.5em;
 
 }
+
+.logo2 {
+    width: 105px;
+    height: 105px
+}
+
 .icon-list {
     padding: 10px;
 }
@@ -119,3 +156,8 @@ img {
     margin-bottom: 2em;
 }
 
+@media (min-width: 1200px) {
+    .container {
+        max-width: 100%;
+    }
+}
