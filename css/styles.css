@@ -18,12 +18,16 @@ body {
 }
 
 ul {
-    margin: 0;
-    padding: 0;
+
 }
 
 li {
     list-style: none;
+}
+.icon3 {
+    height: 105px;
+    width: 105px;
+
 }
 
 #navbar-row li {
